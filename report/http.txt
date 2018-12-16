@@ -1,0 +1,3 @@
+Namestil sem strežnik apache2. V datoteko /var/www/html sem skopiral sliko OS Ubuntu.
+V pxelinux.cfg/default sem naredil nov menu in naštimal da se zažene iz HTTP strežnika.
+Za lokacijo Ubuntu datotek se uporabil IP strežnika ter pot do datotek.

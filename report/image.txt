@@ -1,0 +1,3 @@
+Iz interneta se shranil sliko rakuna. S programom image magick sem jo iz .jpeg pretvoril
+v .png in ji spremenil dimenzije(sem jo pomanjsal). Nato sem v /etc/default/grub dodal ukaz
+za spremembo odzadja. Grub sem nato z ukazom update-grub posodobil.
