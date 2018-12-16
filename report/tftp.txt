@@ -1,0 +1,4 @@
+Strežnik je nastavljen, da servira datoteke iz /srv/tftp. V ta direktorij sem skopiral
+pxelinux.0 in memdisk. Skopiral sem tudi ustrezne module(menu.c32) za pxelinux.
+Ustvaril sem tudi imenik pxelinux.cfg in v njemu datoteko default. V njej sem kreiral
+razne menuje in labele ter nastavil katera datotek naj se ob izboru zažene.

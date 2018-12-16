@@ -1,0 +1,22 @@
+DEFAULT menu.c32
+TIMEOUT 300
+ALLOWOPTIONS 0
+PROMPT 0
+
+MENU TITLE My pxe
+
+LABEL Boot
+MENU LABEL boot normal
+LOCALBOOT 0
+
+
+LABEL Ubuntu 16-04
+MENU LABEL Manual install ubuntu 16-04
+kernel ubuntu/linux
+append initrd=ubuntu/initrd.gz vga=788
+
+LABEL Ubuntu http
+menu label http ubuntu install
+kernel ubuntu/linux
+append auto=true url=http://172.21.25.193/ubuntu/preseed/local-sources.seed vga=788 initrd=ubuntu/initrd.gz --- quiet
+

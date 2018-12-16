@@ -1,0 +1,4 @@
+Datoteko dhcpd.conf sem spremenil, da je dodeljevala naslove od 172.21.25.206 do 172.21.25.242. 
+Nastavil sem tudi "next-server", to je IP naslov računalnika, ki ima TFTP.
+V mojem primeru je IP naslov ostal enak - na istem računalniku sem imel TFTP in DHCP strežnika.
+Polje "filename" pove katera datoteka naj se prenese na povezani računalik. 

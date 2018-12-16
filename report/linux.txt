@@ -1,0 +1,3 @@
+Sliko Ubuntuja sem vzel iz njihove uradne strani. V direktorij /srv/tftp sem 
+ustvaril mapo ubuntu in v njo iz slike skopiral initrd.gz in linux. V pxelinux.cfg/default
+sem naredil nov menu ter nastavil kernel na linux in initrd na initrd.gz.

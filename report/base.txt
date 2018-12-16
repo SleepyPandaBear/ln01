@@ -1,0 +1,8 @@
+Za laboratorijsko nalogo sem uporabil student-DHCPServer iz šeste domače naloge. 
+V lokalni mreži sem mu dodelil statičen IP naslov na 172.21.25.193.
+Programe, ki sem jih namestil:
+	1) apache2: HTTP strežnik, da sem OS naložil preko HTTP-ja.
+	2) isc-dhcp: DHCP strežnik, za dodelitev IP-jev ter pove kje se nahaja računalnik,
+	   ki ima nameščen TFTP strežnik.
+	3) tftp: TFTP strežnik, prenese OS na računalnik prek mreže
+	4) image magick: program za spreminjanje formata/kodiranja/velikosti/... slike.
